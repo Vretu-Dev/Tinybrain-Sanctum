@@ -15,6 +15,8 @@ namespace CBDoor
         public override string Name => "CBDoor";
         public override string Prefix => "CBDoor";
         public override Version Version => new Version(1, 0, 0);
+        public override Version RequiredExiledVersion => new Version(9, 0, 0);
+
         private KeybindSetting CloseDoorKeybind;
         private static readonly Dictionary<int, bool> KeyWasPressed = new Dictionary<int, bool>();
         public override void OnEnabled()

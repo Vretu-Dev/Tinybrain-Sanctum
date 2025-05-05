@@ -14,7 +14,7 @@ namespace Bleeding
         public override string Author => "Vretu";
         public override string Prefix => "Bleeding";
         public override Version RequiredExiledVersion => new Version(9, 0, 0);
-        public override Version Version => new Version(1, 4, 0);
+        public override Version Version => new Version(1, 0, 0);
 
         private readonly Dictionary<Player, CoroutineHandle> bleedingCoroutines = new Dictionary<Player, CoroutineHandle>();
 

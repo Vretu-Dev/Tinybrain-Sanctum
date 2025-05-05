@@ -10,6 +10,7 @@ namespace InventoryReset
         public override string Name => "InventoryReset";
         public override string Prefix => "InventoryReset";
         public override Version Version => new Version(1, 0, 0);
+        public override Version RequiredExiledVersion => new Version(9, 0, 0);
         public override void OnEnabled()
         {
             Exiled.Events.Handlers.Player.Escaping += OnPlayerEscaping;

@@ -14,7 +14,7 @@ namespace Bleeding
         public int BleedingBelowHealth { get; set; } = 20;
         public string StartBleeding { get; set; } = "<color=red>You are bleeding!</color>";
         public string StopBleeding { get; set; } = "<color=green>Bleeding stopped!</color>";
-        public float MessageDuration { get; set; } = 3f;
+        public ushort MessageDuration { get; set; } = 3;
         public List<ItemType> StopBleedingItems { get; set; } = new List<ItemType>
         {
             ItemType.SCP500,

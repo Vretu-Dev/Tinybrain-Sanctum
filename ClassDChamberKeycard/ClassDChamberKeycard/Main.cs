@@ -10,7 +10,7 @@ namespace ClassDChamberKeycard
         public override string Name => "ClassDChamberKeycard";
         public override string Author => "Vretu";
         public override string Prefix => "ClassDChamberKeycard";
-        public override Version Version => new Version(1, 1, 0);
+        public override Version Version => new Version(1, 0, 0);
         public override Version RequiredExiledVersion => new Version(9, 0, 0);
         public static ClassDChamberKeycard Instance { get; private set; }
 
