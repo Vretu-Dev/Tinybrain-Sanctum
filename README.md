@@ -34,7 +34,7 @@ When a player escapes, their inventory is reset, removing all previously held it
 Disables CASSIE voice announcements while keeping subtitles visible for immersive but silent gameplay.
 
 ### 👓 No Goggles
-Prevents SCP-244 (Night Vision Goggles) from spawning naturally in the game world.
+Prevents SCP-1344 (Wallhack Goggles) from spawning naturally in the game world.
 
 ### 🌀 SCP-1162
 Allows players to exchange items in SCP-173’s chamber (original plugin by `xRoier`, recompiled for the latest Exiled version).
