@@ -53,7 +53,7 @@ namespace Bleeding
         {
             float RemainingHealth = ev.Player.Health - ev.Amount;
 
-            if (RemainingHealth < 20 && ev.DamageHandler.Type == DamageType.Falldown)
+            if (RemainingHealth < Config.BleedingBelowHealth && ev.DamageHandler.Type == DamageType.Falldown)
             {
                 StartBleeding(ev.Player);
             }
@@ -66,7 +66,7 @@ namespace Bleeding
                 StartBleeding(ev.Player);
             }
 
-            if (RemainingHealth < 20)
+            if (RemainingHealth < Config.BleedingBelowHealth)
             {
                 StartBleeding(ev.Player);
             }
