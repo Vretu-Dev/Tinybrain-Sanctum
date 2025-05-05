@@ -7,8 +7,8 @@
     <ProjectGuid>{01DA07FE-BEBC-4EFF-B407-0044FF2CB611}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>No_Goggles</RootNamespace>
-    <AssemblyName>No Goggles</AssemblyName>
+    <RootNamespace>NoGoggles</RootNamespace>
+    <AssemblyName>NoGoggles</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
