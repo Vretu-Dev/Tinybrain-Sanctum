@@ -1,0 +1,13 @@
+﻿using Exiled.API.Interfaces;
+using System.ComponentModel;
+
+namespace CBDoor
+{
+    public class Config : IConfig
+    {
+        [Description("Whether the plugin is enable.")]
+        public bool IsEnabled { get; set; } = true;
+        public bool Debug { get; set; } = false;
+        public float ExtendedHitboxDistance { get; set; } = 2f;
+    }
+}
