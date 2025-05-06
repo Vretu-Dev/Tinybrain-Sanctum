@@ -1,5 +1,5 @@
 1. You must have installed VS 2022
-2. Set Enviromental Variable TINY_SANCTUM on main project folder
+2. Set Enviromental Variable TINYBRAIN_SANCTUM on main project folder
 3. If you don't have, download ex.mod nuget package
 4. Run Builder
 5. Set Exiled Version
