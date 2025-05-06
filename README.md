@@ -5,7 +5,7 @@ This repository contains a collection of custom plugins developed for **SCP: Sec
 ## Plugins Overview
 
 ### 💉 AdrenalinRush
-Temporarily boosts player speed after use Adrenaline
+Temporarily boosts player speed after using Adrenaline.
 
 ### 🔁 AutoSR
 Automatically restarts the server after a configurable amount of time with a broadcast message to all players.
@@ -46,13 +46,13 @@ You can continue to run after your stamina is depleted, at the cost of your heal
 Disables CASSIE voice announcements while keeping subtitles visible for immersive but silent gameplay.
 
 ### 🔧 NewUpdateFixes
-Fixed some of the terrible changes Northwood made in the 13.5 update. (Cola Speed/HP Drain, Jailbird Flash and SCP-500)
+Fixed some of the terrible changes Northwood made in the 13.5 update. (Cola Speed/HP Drain, Jailbird Flash and SCP-500).
 
 ### 👓 NoGoggles
 Prevents SCP-1344 (Wallhack Goggles) from spawning naturally in the game world.
 
 ### 🔥 ScatterGun
-Custom item shotgun with improved parameters. Naturally spawning in 079 Chamber
+Custom item shotgun with improved parameters. Naturally spawning in 079 Chamber.
 
 ### 🌀 SCP-1162
 Allows players to exchange items in SCP-173’s chamber (original plugin by `xRoier`, recompiled for the latest Exiled version).
