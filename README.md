@@ -27,6 +27,9 @@ Class-D cell doors require an **Armory Level Keycard** (e.g., Guard card) to ope
 ### 🧹 ClearItems
 Periodically clears specified items from the ground after a set amount of time to reduce clutter and improve performance.
 
+### ⚙️ CustomACC
+Allows you to set custom weapon inaccuraciess.
+
 ### 💥 DisableWarhead
 Permanently disables the Alpha Warhead, useful for custom events or scenarios where detonation is not desired.
 
