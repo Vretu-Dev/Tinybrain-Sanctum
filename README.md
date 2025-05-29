@@ -1,6 +1,13 @@
-# Tinybrain-Sanctum. <br>The SCP: Secret Laboratory Plugins Collection
+![TinyBrain](https://github.com/user-attachments/assets/6ab715cd-d20f-45d3-ab4a-8c608f8d6c97)
+[![downloads](https://img.shields.io/github/downloads/Vretu-Dev/Tinybrain-Sanctum/total?style=for-the-badge&logo=icloud&color=%233A6D8C)](https://github.com/Vretu-Dev/Tinybrain-Sanctum/releases/latest)
+![Latest](https://img.shields.io/github/v/release/Vretu-Dev/Tinybrain-Sanctum?style=for-the-badge&label=Latest%20Release&color=%23D91656)
 
 This repository contains a collection of custom plugins developed for **SCP: Secret Laboratory (Exiled framework)**. These plugins aim to enhance gameplay, assist in event creation, and modify server mechanics in creative ways.
+
+## Downloads:
+| Framework | Version    |  Release                                                              |
+|:---------:|:----------:|:----------------------------------------------------------------------:|
+| Exiled    | ≥ 9.6.0    | [⬇️](https://github.com/Vretu-Dev/Tinybrain-Sanctum/releases/latest)   |
 
 ## Plugins Overview
 
