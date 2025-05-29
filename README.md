@@ -1,4 +1,4 @@
-# Tinybrain-Sanctum. The SCP: Secret Laboratory Plugins Collection
+# Tinybrain-Sanctum. <br>The SCP: Secret Laboratory Plugins Collection
 
 This repository contains a collection of custom plugins developed for **SCP: Secret Laboratory (Exiled framework)**. These plugins aim to enhance gameplay, assist in event creation, and modify server mechanics in creative ways.
 
