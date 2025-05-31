@@ -68,6 +68,9 @@ A special item that, when equipped:
 - Allows the wearer to look at SCP-096 without triggering its rage.
 - Prevents the wearer from damaging SCP-096.
 
+### 🚪 SurfaceZoneDisabler
+Surface zone is disabled — all respawns and escapes now occur at Gate A or Gate B.
+
 ---
 ## Installation
 
