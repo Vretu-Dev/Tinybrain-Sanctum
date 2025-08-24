@@ -37,6 +37,9 @@ Periodically clears specified items from the ground after a set amount of time t
 ### ⚙️ CustomACC
 Allows you to set custom weapon inaccuraciess.
 
+### 💡 CustomLights
+You can change the lighting of rooms
+
 ### 💥 DisableWarhead
 Permanently disables the Alpha Warhead, useful for custom events or scenarios where detonation is not desired.
 
@@ -89,4 +92,8 @@ Surface zone is disabled — all respawns and escapes now occur at Gate A or Gat
 ## License
 
 Feel free to use and modify these plugins for personal or server use. Attribution is appreciated.
+---
 
+### Contributors
+- [@SnivyFilms](https://github.com/SnivyFilms)
+---
