@@ -94,6 +94,6 @@ Surface zone is disabled — all respawns and escapes now occur at Gate A or Gat
 Feel free to use and modify these plugins for personal or server use. Attribution is appreciated.
 ---
 
-### Contributors
+## Contributors
 - [@SnivyFilms](https://github.com/SnivyFilms)
 ---
