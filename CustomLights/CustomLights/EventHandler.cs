@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Exiled.API.Features;
+using Exiled.Events.EventArgs.Warhead;
 using UnityEngine;
 
 namespace CustomLights
@@ -10,6 +11,19 @@ namespace CustomLights
         public Plugin Plugin;
         public EventHandler(Plugin plugin) => Plugin = plugin;
         public void OnRoundStarted()
+        {
+            UpdateLights();
+        }
+        public void OnWarheadStart(StartingEventArgs ev)
+        {
+            Map.ChangeLightsColor(Plugin.Config.NukeLightColor);
+        }
+        public void OnWarheadStop(StoppingEventArgs ev)
+        {
+            Map.ResetLightsColor();
+            UpdateLights();
+        }
+        private void UpdateLights()
         {
             foreach (var roomLight in Plugin.Config.RoomLights)
             {

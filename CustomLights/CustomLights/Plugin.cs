@@ -1,6 +1,7 @@
 using System;
 using Exiled.API.Features;
 using Server = Exiled.Events.Handlers.Server;
+using Warhead = Exiled.Events.Handlers.Warhead;
 
 namespace CustomLights
 {
@@ -19,12 +20,16 @@ namespace CustomLights
             Instance = this;
             EventHandler = new EventHandler(this);
             Server.RoundStarted += EventHandler.OnRoundStarted;
+            Warhead.Starting += EventHandler.OnWarheadStart;
+            Warhead.Stopping += EventHandler.OnWarheadStop;
             base.OnEnabled();
         }
 
         public override void OnDisabled()
         {
             Server.RoundStarted -= EventHandler.OnRoundStarted;
+            Warhead.Starting -= EventHandler.OnWarheadStart;
+            Warhead.Stopping -= EventHandler.OnWarheadStop;
             EventHandler = null;
             Instance = null;
             base.OnDisabled();
