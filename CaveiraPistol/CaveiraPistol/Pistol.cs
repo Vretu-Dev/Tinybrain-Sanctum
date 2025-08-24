@@ -30,7 +30,7 @@ namespace CaveiraPistol
         public override bool FriendlyFire { get; set; } = true;
         public override float Weight { get; set; } = 1f;
         public float DamageMultiplier { get; set; } = Main.Instance.Config.RampageDamageMultiplier;
-        public HeaderSetting SettingsHeader { get; set; } = new HeaderSetting("Caveira Pistol");
+        public HeaderSetting SettingsHeader { get; set; } = new HeaderSetting(110, "Caveira Pistol");
 
         private Dictionary<Player, CoroutineHandle> effectWindows = new Dictionary<Player, CoroutineHandle>();
         private Dictionary<Player, KeyCode> playerKeybinds = new Dictionary<Player, KeyCode>();
