@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using Exiled.API.Enums;
 using Exiled.API.Interfaces;
+using UnityEngine;
 
 namespace CustomLights
 {
@@ -20,6 +21,7 @@ namespace CustomLights
                 Intensity = 1f
             },
         };
+        public Color32 NukeLightColor { get; set; } = new Color32(255, 0, 0, 1);
     }
 
     public class RoomLightConfig
